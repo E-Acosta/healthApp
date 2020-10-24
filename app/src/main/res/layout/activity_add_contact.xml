@@ -11,12 +11,39 @@
         android:layout_height="wrap_content"
         tools:context=".addContactActivity">
 
+        <EditText
+            android:id="@+id/etBarrio"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="20dp"
+            android:autofillHints=""
+            android:background="@drawable/edit_text_white"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/buttonText"
+            android:textColorHint="@color/buttonText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/barrio"
+            android:textColor="#fff"
+            android:textSize="28sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dateButton" />
+
         <TextView
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="40dp"
             android:text="@string/name"
             android:textColor="#fff"
             android:textSize="28sp"
@@ -28,7 +55,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="20dp"
             android:text="@string/lastname"
             android:textColor="#fff"
             android:textSize="28sp"
@@ -40,27 +67,27 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="28dp"
+            android:layout_marginTop="20dp"
             android:text="@string/phone"
             android:textColor="#fff"
             android:textSize="28sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/etApellido" />
+            app:layout_constraintTop_toBottomOf="@+id/etSistolico" />
 
         <TextView
             android:id="@+id/textView9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="20dp"
             android:text="@string/birthday"
             android:textColor="#fff"
             android:textSize="28sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/etTelefono" />
+            app:layout_constraintTop_toBottomOf="@+id/etDistolico" />
 
         <Button
-            android:id="@+id/birthdayButton"
+            android:id="@+id/dateButton"
             android:layout_width="198dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -87,7 +114,7 @@
             android:autofillHints="" />
 
         <EditText
-            android:id="@+id/etApellido"
+            android:id="@+id/etSistolico"
             android:layout_width="wrap_content"
             android:layout_height="35dp"
             android:layout_marginStart="32dp"
@@ -102,7 +129,7 @@
             android:autofillHints="" />
 
         <EditText
-            android:id="@+id/etTelefono"
+            android:id="@+id/etDistolico"
             android:layout_width="wrap_content"
             android:layout_height="35dp"
             android:layout_marginStart="32dp"
@@ -120,13 +147,13 @@
             android:id="@+id/ingresarButton"
             android:layout_width="wrap_content"
             android:layout_height="42dp"
-            android:layout_marginStart="168dp"
-            android:layout_marginTop="60dp"
+            android:layout_marginStart="176dp"
+            android:layout_marginTop="24dp"
             android:background="@drawable/edit_text_white"
             android:text="@string/ingresar"
             android:textColor="#fff"
             android:textColorHint="@color/buttonText"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/birthdayButton" />
+            app:layout_constraintTop_toBottomOf="@+id/etBarrio" />
     </android.support.constraint.ConstraintLayout>
 </ScrollView>

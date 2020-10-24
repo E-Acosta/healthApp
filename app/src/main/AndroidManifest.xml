@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.everacosta.healthApp">
+    package="com.nemoreno.healthApp">
 
     <application
         android:allowBackup="true"
@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme4">
-        <activity android:name="com.everacosta.healthApp.editActivity"></activity>
-        <activity android:name="com.everacosta.healthApp.listarActivity" />
-        <activity android:name="com.everacosta.healthApp.addContactActivity" />
-        <activity android:name="com.everacosta.healthApp.opcionesActivity">
+        <activity android:name="com.nemoreno.healthApp.editActivity"></activity>
+        <activity android:name="com.nemoreno.healthApp.listarActivity" />
+        <activity android:name="com.nemoreno.healthApp.addContactActivity" />
+        <activity android:name="com.nemoreno.healthApp.opcionesActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

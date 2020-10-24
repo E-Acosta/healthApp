@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Taller SQLITE</string>
+    <string name="app_name">Parcial 2 Nemo</string>
     <string name="addContact">Agregar Registro</string>
     <string name="listContacto">Lista De Registros</string>
     <string name="exit">Salir</string>
@@ -9,6 +9,8 @@
     <string name="birthday">Fecha</string>
     <string name="update">Actualizar</string>
     <string name="ingresar">Ingresar</string>
+    <string name="barrio">Barrio</string>
+    <string name="fecha">fecha</string>
 
 
 </resources>
